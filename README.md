@@ -7,7 +7,7 @@ Digit Prediction: Upload a handwritten digit image, and the app predicts the dig
 Interactive Web Interface: A simple and user-friendly front-end for uploading images and viewing predictions.
 Deep Learning Model: Uses a pre-trained deep neural network (mnist_ann_model.h5) trained on the MNIST dataset.
 Deployed on Render: Accessible online for testing and demonstration.
-![Screenshot (4)](https://github.com/user-attachments/assets/74de991d-c3af-4643-bd58-d2278c0b01de)
+![Screenshot (5)](https://github.com/user-attachments/assets/a64ea87b-ed99-4ba2-874d-e41604ece96b)
 
 How It Works
 Upload an Image: Choose a file containing a handwritten digit (e.g., 5.png).
