@@ -14,25 +14,6 @@ Upload an Image: Choose a file containing a handwritten digit (e.g., 5.png).
 Prediction: The app processes the image and predicts the digit using the loaded ML model.
 Output: Displays the prediction directly on the interface.
 
-Project Directory Structure
-plaintext
-Copy code
-handwritten-digit-recognition/
-├── .venv/                         # Virtual environment
-├── Models/
-│   └── mnist_ann_model.h5         # Pre-trained model for digit recognition
-├── static/                        # Front-end static files
-│   ├── script.js                  # JavaScript for interactivity
-│   ├── style.css                  # Styling for the web interface
-├── templates/                     # HTML templates
-│   └── index.html                 # Main web page
-├── Trainer/
-│   └── handwritten-digit-recognition.ipynb  # Jupyter Notebook for training the model
-├── app.py                         # Main application file (Flask app)
-├── requirements.txt               # Python dependencies
-└── README.md                      # Project documentation
-Installation
-Follow these steps to run the project locally:
 
 Clone the Repository:
 
