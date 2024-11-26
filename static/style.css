@@ -1,0 +1,43 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212; /* Night mode background color */
+    color: #ffffff; /* White text color for better visibility in night mode */
+    backdrop-filter: blur(8px); /* Blur effect */
+}
+
+.container {
+    text-align: center;
+    width: 80%;
+    padding: 20px;
+}
+
+input[type="file"], button {
+    display: block;
+    margin: 10px auto; /* Center align and add space around */
+    padding: 8px 16px;
+}
+
+button {
+    background-color: #4CAF50; /* Green color for the button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049; /* Slightly darker green on hover */
+}
+
+#image-preview {
+    max-width: 100%;
+    height: auto;
+    display: none; /* Initially hide the image preview */
+    margin-bottom: 15px; /* Space before the button */
+}
