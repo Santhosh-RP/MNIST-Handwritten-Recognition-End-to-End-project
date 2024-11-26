@@ -1,21 +1,20 @@
-MNIST Recognition/
+handwritten-digit-recognition/
 │
-├── .venv/                          # Virtual environment directory (not included in Docker)
+├── .venv/                         # Virtual environment for the project
 │
 ├── Models/
-│   └── mnist_ann_model.h5          # Trained model file
+│   └── mnist_ann_model.h5         # Pre-trained model for digit recognition
 │
-├── static/
-│   ├── style.css                   # CSS styles for the web interface
-│   └── script.js                   # JavaScript file for handling frontend logic
+├── static/                        # Folder for static files
+│   ├── script.js                  # JavaScript file for front-end interactivity
+│   ├── style.css                  # CSS file for front-end styling
 │
-├── templates/
-│   └── index.html                  # HTML template for the web interface
+├── templates/                     # Folder for HTML templates
+│   └── index.html                 # Front-end HTML file for the web interface
 │
-├── Dockerfile                      # Dockerfile contains all the commands to build the image
+├── Trainer/                       # Training-related resources (if applicable)
+│   └── handwritten-digit-recognition.ipynb  # Jupyter Notebook for model training
 │
-├── app.py                          # Main Flask application file
-│
-├── requirements.txt                # List of dependencies to install inside the Docker container
-│
-└── project_structure.txt           # This file, describing the project structure (optional)
+├── app.py                         # Main Flask application file
+├── requirements.txt               # Python dependencies for the project
+└── project_structure.txt          # This file describing the project structure
