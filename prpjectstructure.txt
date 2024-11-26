@@ -1,0 +1,21 @@
+MNIST Recognition/
+│
+├── .venv/                          # Virtual environment directory (not included in Docker)
+│
+├── Models/
+│   └── mnist_ann_model.h5          # Trained model file
+│
+├── static/
+│   ├── style.css                   # CSS styles for the web interface
+│   └── script.js                   # JavaScript file for handling frontend logic
+│
+├── templates/
+│   └── index.html                  # HTML template for the web interface
+│
+├── Dockerfile                      # Dockerfile contains all the commands to build the image
+│
+├── app.py                          # Main Flask application file
+│
+├── requirements.txt                # List of dependencies to install inside the Docker container
+│
+└── project_structure.txt           # This file, describing the project structure (optional)
