@@ -3,16 +3,21 @@ import numpy as np
 from PIL import Image
 from tensorflow.keras.models import load_model
 import logging
+import os
+
 
 app = Flask(__name__)
 
 logging.basicConfig(level=logging.INFO)
 
+# Dynamically construct the path to the model
+model_path = os.path.join(os.getcwd(), "Models", "mnist_ann_model.h5")
 try:
-    model = load_model('models/mnist_ann_model.h5')
+    model = load_model(model_path)
     logging.info("Model loaded successfully.")
 except Exception as e:
     logging.error(f"Failed to load model: {e}")
+
 
 def prepare_image(image_file):
     try:
