@@ -1,4 +1,4 @@
-<h1>Handwritten Digit Recognition Web App</h1>h1>
+<h1>Handwritten Digit Recognition Web App</h1>
 
 * This is a web application that recognizes handwritten digits (0–9) using a deep learning model. The app is built with Flask and deployed on Render. Users can upload an image of a digit, and the app predicts the digit displayed in the image.
 
