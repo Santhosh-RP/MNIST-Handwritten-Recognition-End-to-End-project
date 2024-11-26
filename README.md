@@ -9,6 +9,8 @@ Features
 * Deep Learning Model: Uses a pre-trained deep neural network (mnist_ann_model.h5) trained on the MNIST dataset.
 * Deployed on Render: Accessible online for testing and demonstration.
 ![Screenshot (5)](https://github.com/user-attachments/assets/a64ea87b-ed99-4ba2-874d-e41604ece96b)
+![image](https://github.com/user-attachments/assets/17f9f6e3-3e86-4735-b700-119008871f77)
+
 
 How It Works
 * Upload an Image: Choose a file containing a handwritten digit (e.g., 5.png).
